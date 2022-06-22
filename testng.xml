@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="userName" value="problem_user"></parameter>
+  <parameter name="password" value="secret_sauce"></parameter>
+    <classes>
+        <class name="testscript2.ProblemUser"/>
+     </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Test2">
+  <parameter name="userName" value="performance_glitch_user"></parameter>
+  <parameter name="password" value="secret_sauce"></parameter>
+    <classes>
+          <class name="testscript2.PerformanceGlitchUser"/>
+    
+     </classes>
+  </test> <!-- Test -->
+  
+   <test thread-count="5" name="Test3">
+  <parameter name="userName" value="standard_user"></parameter>
+  <parameter name="password" value="secret_sauce"></parameter>
+    <classes>
+          <class name="testscript2.StandardUsers"/>
+    
+     </classes>
+  </test> <!-- Test --> 
+  
+  <test thread-count="5" name="Test4">
+  <parameter name="userName" value="locked_out_user"></parameter>
+  <parameter name="password" value="secret_sauce"></parameter>
+    <classes>
+          <class name="testscript2.lockedoutusers"/>
+    
+     </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+<!--       <class name="testscript2.lockedoutusers"/> -->
+<!--       <class name="testscript2.DatadrivenProblemUser"/> -->
+<!--       <class name="testscript2.StandardUsers"/> -->
+
