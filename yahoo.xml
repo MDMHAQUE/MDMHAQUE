@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<parameter name="userFirstName" value="David"></parameter>
+		<parameter name="userLastName" value="Frank"></parameter>
+		<parameter name="userId" value="davidfrank439"></parameter>
+		<parameter name="birthYear" value="2000"></parameter>
+		
+		<classes>
+			<class name="yahoo.YahooPractice" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
